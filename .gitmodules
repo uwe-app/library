@@ -1,0 +1,3 @@
+[submodule "jsonfeed"]
+	path = jsonfeed
+	url = git@github.com:hypertext-live/jsonfeed.git
