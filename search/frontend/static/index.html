@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Search Test Page</title>
+    <link rel="stylesheet" href="/search.css" />
+    <style>
+      main {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .search-wrapper {
+        max-width: 550px;
+        width: 100%;
+        margin-bottom: 3rem;
+      }
+
+      .search-output-visible {
+        z-index: 200;
+      }
+
+      .subtitle {
+        margin: 0.8em;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.8em;
+      }
+
+      body {
+        background-color: lightgray;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Test Page</h1>
+    <main>
+      <div class="search-wrapper">
+        <p class="subtitle">Local index</p>
+        <input data-search="federalist" placeholder="liberty" class="search-input"></input>
+        <div data-search="federalist-output" class="search-output"></div>
+      </div>
+    </main>
+
+    <script src="/search.js"></script>
+    <script>
+      search.register("federalist", "/federalist.st", {
+        showProgress: true,
+        showScores: true,
+        printIndexInfo: true
+      });
+    </script>
+  </body>
+</html>
