@@ -2,10 +2,6 @@
   "name": "search",
   "version": "0.8",
   "description": "Impossibly fast web search, made for static sites.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hypertext-live/search.git"
-  },
   "keywords": [
     "search",
     "wasm",
@@ -13,9 +9,6 @@
   ],
   "author": "James Little <littleguy23@gmail.com> (https://jameslittle.me)",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/hypertext-live/search/issues"
-  },
   "devDependencies": {
     "@open-wc/webpack-import-meta-loader": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^3.0.0",
