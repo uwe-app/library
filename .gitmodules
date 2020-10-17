@@ -1,3 +1,6 @@
 [submodule "jsonfeed"]
 	path = jsonfeed
 	url = git@github.com:hypertext-live/jsonfeed.git
+[submodule "handlebars-rust"]
+	path = handlebars-rust
+	url = git@github.com:uwe-app/handlebars-rust.git
