@@ -1,3 +1,6 @@
 [submodule "jsonfeed"]
 	path = jsonfeed
 	url = git@github.com:hypertext-live/jsonfeed.git
+[submodule "webdav-handler-rs"]
+	path = webdav-handler-rs
+	url = git@github.com:tmpfs/webdav-handler-rs.git
