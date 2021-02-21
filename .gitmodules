@@ -4,6 +4,3 @@
 [submodule "webdav-handler-rs"]
 	path = webdav-handler-rs
 	url = git@github.com:tmpfs/webdav-handler-rs.git
-[submodule "wry"]
-	path = wry
-	url = git@github.com:uwe-app/wry.git
