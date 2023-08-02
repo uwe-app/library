@@ -42,8 +42,7 @@ impl Config {
             )
         });
 
-        toml::from_str(&contents)
-            .expect("Config file does not contain proper TOML syntax.")
+        toml::from_str(&contents).expect("Config file does not contain proper TOML syntax.")
     }
 }
 

@@ -1,0 +1,17 @@
+[package]
+name = "uwe-library"
+version = "0.50.0"
+authors = ["muji <muji@tmpfs.org>"]
+description = "Universal web editor"
+repository = "https://github.com/uwe-app/app"
+edition = "2018"
+
+[workspace]
+members = [
+  "search/backend",
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "z"

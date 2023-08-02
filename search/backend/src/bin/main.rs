@@ -143,8 +143,7 @@ impl Argparse {
                     ValueOrRange::Value(val) => (number_of_args as u8) == val,
 
                     ValueOrRange::Range(min, max) => {
-                        (number_of_args as u8) >= min
-                            && (number_of_args as u8) <= max
+                        (number_of_args as u8) >= min && (number_of_args as u8) <= max
                     }
                 };
 
